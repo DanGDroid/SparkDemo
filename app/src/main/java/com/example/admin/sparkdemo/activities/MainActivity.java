@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayShowHomeEnabled(true);
             getSupportActionBar().setIcon(R.drawable.spark_logo);
         }
-        changeFragment(myBookShelfFragment);
+        changeFragment(MyBookShelfFragment.newInstance());
     }
 
     public void changeFragment(Fragment fragment) {
